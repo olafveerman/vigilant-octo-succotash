@@ -1,5 +1,132 @@
 {
-  "key": "favorite-color",
-  "display": "What's the average favourite color for this country",
-  "type": "text"
+  "meta": {
+    "version": "1.0.0"
+  },
+  "data": [
+    {
+      "id": "notable_laws",
+      "title": "Notable Procurement or Transparency Laws/Policies",
+      "type": "text",
+    },
+    {
+      "id": "ocds",
+      "title": "OCDS status",
+      "type": "select",
+      "options": ["publishing", "implementing", "committed", "not committed"]
+    },
+    {
+      "id": "portal",
+      "title": "Eprocurement portal(s) or relevant sites",
+      "type": "text"
+    },
+    {
+      "id": "contracts_published",
+      "title": "Contracts Published",
+      "type": "select",
+      "options": [
+        "yes","no","partially"
+      ]
+    },
+    {
+      "id": "contracts_published_description",
+      "title": "Description of what contracts are published",
+      "type": "text"
+    },
+    {
+      "id": "inst_engaging",
+      "title": "Government / oversight authorities engaging with citizens and the private sector",
+      "type": "text"
+    },
+    {
+      "id": "cs_engaged",
+      "title": "Civil Society engaged / using disclosed data",
+      "type": "text"
+    },
+    {
+      "id": "feedback_mechanism",
+      "title": "Feedback / redress mechanism",
+      "type": "text"
+    },
+    {
+      "id": "ogp",
+      "title": "OGP Member State",
+      "type": "boolean"
+    },
+    {
+      "id": "ogp_commitment",
+      "title": "Relevant OGP Commitment",
+      "type": "test",
+      "depends": "ogp"
+    },
+    {
+      "id": "cost",
+      "title": "COST member",
+      "type": "boolean"
+    },
+    {
+      "id": "eiti",
+      "title": "EITI member",
+      "type": "select",
+      "option": ["candidate","compliant","none"]
+    },
+    {
+      "id": "gift",
+      "title": "GIFT member",
+      "type": "select",
+      "options": ["lead_steward","general_steward"]
+    },
+    {
+      "id": "gift_steward",
+      "title": "GIFT steward",
+      "type": "text",
+      "depends": "gift"
+    },
+    {
+      "id": "g20",
+      "title": "G20 member",
+      "type": "boolean"
+    },
+    {
+      "id": "oecd",
+      "title": "OECD member",
+      "type": "boolean"
+    },
+    {
+      "id": "notable_projects",
+      "title": "Notable Projects (Partners/Allies)",
+      "type": "text"
+    },
+    {
+      "id": "ocp_opportunities",
+      "title": "OCP opportunities",
+      "type": "text"
+    },
+    {
+      "id": "eiti_policy",
+      "title": "EITI: Contract disclosure in policy (full/ partial/ none)",
+      "type": "select",
+      "options": ["full", "partial", "none"]
+    },
+    {
+      "id": "eiti_practice",
+      "title": "EITI: Contract disclosure in practice (full/ partial/ none)",
+      "type": "select",
+      "options": ["full", "partial", "none"]
+    },
+    {
+      "id": "procurement_share",
+      "title": "General government procurement as share of total government expenditures",
+      "type": "decimal"
+    },
+    {
+      "id": "gdp",
+      "title": "GDP in billion",
+      "type": "decimal"
+    },
+    {
+      "id": "population",
+      "title": "Population in million",
+      "type": "decimal"
+    }
+  ]
 }
