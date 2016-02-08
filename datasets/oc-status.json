@@ -52,10 +52,11 @@
       "type": "boolean",
       "default": false
     },
-    "ogp_commitment": { //"depends": "ogp"
+    "ogp_commitment": {
       "title": "Relevant OGP Commitment",
       "type": "string",
-      "default": null
+      "default": null,
+      "depends": "ogp"
     },
     "cost": {
       "title": "COST member",
@@ -72,10 +73,11 @@
       "type": "string",
       "enum": ["lead_steward","general_steward"]
     },
-    "gift_steward": { //"depends": "gift"
+    "gift_steward": {
       "title": "GIFT steward",
       "type": "string",
-      "default": null
+      "default": null,
+      "depends": "gift"
     },
     "g20": {
       "title": "G20 member",
