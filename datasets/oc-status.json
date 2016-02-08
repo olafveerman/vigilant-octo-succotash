@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Open Contracting Status",
+  "description": "Surveying the status of open contracting around the world",
+  "type": "object",
+  "version": 1,
+  "required": ["ocds"],
+  "properties": {
+    "notable_laws": {
+      "title": "Notable Procurement or Transparency Laws/Policies",
+      "type": "string",
+      "default": null
+    },
+    "ocds": {
+      "title": "OCDS status",
+      "type": "string",
+      "enum": ["publishing", "implementing", "committed", "not committed"],
+      "default": "not committed"
+    },
+    "portal": {
+      "title": "Eprocurement portal(s) or relevant sites",
+      "type": "string",
+      "default": null
+    },
+    "contracts_published": {
+      "title": "Contracts Published",
+      "type": "string",
+      "enum": ["yes","no","partially"]
+    },
+    "contracts_published_description": {
+      "title": "Description of what contracts are published",
+      "type": "string",
+      "default": null
+    },
+    "inst_engaging": {
+      "title": "Government / oversight authorities engaging with citizens and the private sector",
+      "type": "string",
+      "default": null
+    },
+    "cs_engaged": {
+      "title": "Civil Society engaged / using disclosed data",
+      "type": "string",
+      "default": null
+    },
+    "feedback_mechanism": {
+      "title": "Feedback / redress mechanism",
+      "type": "string",
+      "default": null
+    },
+    "ogp": {
+      "title": "OGP Member State",
+      "type": "boolean",
+      "default": false
+    },
+    "ogp_commitment": { //"depends": "ogp"
+      "title": "Relevant OGP Commitment",
+      "type": "string",
+      "default": null
+    },
+    "cost": {
+      "title": "COST member",
+      "type": "boolean",
+      "default": false
+    },
+    "eiti": {
+      "title": "EITI member",
+      "type": "string",
+      "enum": ["candidate","compliant","none"]
+    },
+    "gift": {
+      "title": "GIFT member",
+      "type": "string",
+      "enum": ["lead_steward","general_steward"]
+    },
+    "gift_steward": { //"depends": "gift"
+      "title": "GIFT steward",
+      "type": "string",
+      "default": null
+    },
+    "g20": {
+      "title": "G20 member",
+      "type": "boolean",
+      "default": false
+    },
+    "oecd": {
+      "title": "OECD member",
+      "type": "boolean",
+      "default": false
+    },
+    "notable_projects": {
+      "title": "Notable Projects (Partners/Allies)",
+      "type": "string",
+      "default": null
+    },
+    "ocp_opportunities": {
+      "title": "OCP opportunities",
+      "type": "string",
+      "default": null
+    },
+    "eiti_policy": {
+      "title": "EITI: Contract disclosure in policy (full/ partial/ none)",
+      "type": "string",
+      "enum": ["full", "partial", "none"]
+    },
+    "eiti_practice": {
+      "title": "EITI: Contract disclosure in practice (full/ partial/ none)",
+      "type": "string",
+      "enum": ["full", "partial", "none"]
+    },
+    "procurement_share": {
+      "title": "General government procurement as share of total government expenditures",
+      "type": "number",
+      "default": null
+    },
+    "gdp": {
+      "title": "GDP in billion",
+      "type": "number",
+      "default": null
+    },
+    "population": {
+      "title": "Population in million",
+      "type": "number",
+      "default": null
+    }
+  }
+}
+
+
+  
