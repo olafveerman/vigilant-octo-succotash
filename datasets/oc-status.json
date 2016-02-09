@@ -4,128 +4,93 @@
   "description": "Surveying the status of open contracting around the world",
   "type": "object",
   "version": 1,
-  "required": ["ocds"],
+  "required": [],
   "properties": {
-    "notable_laws": {
-      "title": "Notable Procurement or Transparency Laws/Policies",
-      "type": "string",
-      "default": null
+    "godi_score": {
+      "title": "GODI Score",
+      "type": "number",
+      "default": "",
+      "description": ""
     },
-    "ocds": {
-      "title": "OCDS status",
+    "godi_link": {
+      "title": "GODI link",
       "type": "string",
-      "enum": ["publishing", "implementing", "committed", "not committed"],
-      "default": "not committed"
+      "description": ""
     },
-    "portal": {
-      "title": "Eprocurement portal(s) or relevant sites",
+    "innovation": {
+      "title": "Innovation in monitoring and data use",
       "type": "string",
-      "default": null
+      "description": "Provide a simple title for the innovation."
     },
-    "contracts_published": {
-      "title": "Contracts Published",
+    "innovation_link": {
+      "title": "Innovation Link",
       "type": "string",
-      "enum": ["yes","no","partially"]
+      "description": ""
     },
-    "contracts_published_description": {
-      "title": "Description of what contracts are published",
-      "type": "string",
-      "default": null
-    },
-    "inst_engaging": {
-      "title": "Government / oversight authorities engaging with citizens and the private sector",
-      "type": "string",
-      "default": null
-    },
-    "cs_engaged": {
-      "title": "Civil Society engaged / using disclosed data",
-      "type": "string",
-      "default": null
-    },
-    "feedback_mechanism": {
-      "title": "Feedback / redress mechanism",
-      "type": "string",
-      "default": null
-    },
-    "ogp": {
-      "title": "OGP Member State",
+    "ocds_historic_data": {
+      "title": "Publishing historic OCDS data",
       "type": "boolean",
-      "default": false
+      "default": false,
+      "description": ""
+    },
+    "ocds_ongoing_data": {
+      "title": "Publishing ongoing OCDS data",
+      "type": "boolean",
+      "default": false,
+      "description": ""
+    },
+    "ocds_implementation": {
+      "title": "Implementation in progress",
+      "type": "boolean",
+      "default": false,
+      "description": ""
+    },
+    "website_name": {
+      "title": "Website name",
+      "type": "string",
+      "description": ""
+    },
+    "website_link": {
+      "title": "Website link",
+      "type": "string",
+      "description": ""
     },
     "ogp_commitment": {
-      "title": "Relevant OGP Commitment",
+      "title": "Relevent OGP Commitment",
       "type": "string",
-      "default": null,
-      "depends": "ogp"
+      "description": ""
     },
-    "cost": {
-      "title": "COST member",
+    "ogp_commitment_link": {
+      "title": "Link to OGP NAP",
+      "type": "string",
+      "description": ""
+    },
+    "citizen_monitoring": {
+      "title": "Citizen Monitoring Legal Framework",
       "type": "boolean",
       "default": false
     },
-    "eiti": {
-      "title": "EITI member",
+    "extractives_commitment": {
+      "title": "Extractives Commitment",
       "type": "string",
-      "enum": ["candidate","compliant","none"]
+      "description": ""
     },
-    "gift": {
-      "title": "GIFT member",
+    "extractives_commitment_link": {
+      "title": "Link to extractives commitment",
       "type": "string",
-      "enum": ["lead_steward","general_steward"]
+      "description": ""
     },
-    "gift_steward": {
-      "title": "GIFT steward",
+    "publishing_extractives": {
+      "title": "Publishing Extractives",
       "type": "string",
-      "default": null,
-      "depends": "gift"
+      "default": "",
+      "description": ""
     },
-    "g20": {
-      "title": "G20 member",
-      "type": "boolean",
-      "default": false
-    },
-    "oecd": {
-      "title": "OECD member",
-      "type": "boolean",
-      "default": false
-    },
-    "notable_projects": {
-      "title": "Notable Projects (Partners/Allies)",
+    "publishing_extractives_link": {
+      "title": "Link to Publishing Extractives",
       "type": "string",
-      "default": null
-    },
-    "ocp_opportunities": {
-      "title": "OCP opportunities",
-      "type": "string",
-      "default": null
-    },
-    "eiti_policy": {
-      "title": "EITI: Contract disclosure in policy (full/ partial/ none)",
-      "type": "string",
-      "enum": ["full", "partial", "none"]
-    },
-    "eiti_practice": {
-      "title": "EITI: Contract disclosure in practice (full/ partial/ none)",
-      "type": "string",
-      "enum": ["full", "partial", "none"]
-    },
-    "procurement_share": {
-      "title": "General government procurement as share of total government expenditures",
-      "type": "number",
-      "default": null
-    },
-    "gdp": {
-      "title": "GDP in billion",
-      "type": "number",
-      "default": null
-    },
-    "population": {
-      "title": "Population in million",
-      "type": "number",
-      "default": null
+      "default": "",
+      "description": ""
     }
   }
 }
-
-
-  
