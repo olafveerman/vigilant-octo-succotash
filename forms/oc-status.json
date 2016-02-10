@@ -65,15 +65,24 @@
       "type": "string",
       "description": ""
     },
-    "ogp_commitment": {
-      "title": "Relevent OGP Commitment",
-      "type": "string",
-      "description": ""
-    },
-    "ogp_commitment_link": {
-      "title": "Link to OGP NAP",
-      "type": "string",
-      "description": ""
+    "ogp_commitments": {
+      "type": "array",
+      "title": "Relevant OGP commitments",
+      "items": {
+        "title": "Innovation",
+        "type": "object",
+        "properties": {
+          "ogp_commitment": {
+            "title": "Relevant OGP Commitment",
+            "type": "string"
+          },
+          "ogp_commitment_link": {
+            "title": "Link to OGP NAP",
+            "type": "string"
+          }
+        },
+        "required": ["ogp_commitment"]
+      }
     },
     "citizen_monitoring": {
       "title": "Citizen Monitoring Legal Framework",
