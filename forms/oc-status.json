@@ -17,15 +17,21 @@
       "type": "string",
       "description": ""
     },
-    "innovation": {
-      "title": "Innovation in monitoring and data use",
-      "type": "string",
-      "description": "Provide a simple title for the innovation."
-    },
-    "innovation_link": {
-      "title": "Innovation Link",
-      "type": "string",
-      "description": ""
+    "innovations": {
+      "type": "array",
+      "title": "Innovations in monitoring and data use",
+      "items": {
+        "innovation_description": {
+          "title": "Provide a simple description of the innovation",
+          "type": "string",
+          "maxLength": 30
+        },
+        "innovation_link": {
+          "title": "Provide a link to the innovation",
+          "type": "string"
+        },
+        "required": ["innovation_description"]
+      }
     },
     "ocds_historic_data": {
       "title": "Publishing historic OCDS data",
