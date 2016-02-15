@@ -1,33 +1,59 @@
- {
-    "iso": "id",
-    "name": "Indonesia",
-    "meta": {
-      "schema_version": "1.0.0",
-      "date": 140
-    },
-    "results": {
-      "notable_laws": "Public Information Disclosure Act (2008); Transparency of Public Information Law (2010)",
-      "ocds": "committed",
-      "portal": "http://opentender.net/",
-      "contracts_published": "partial",
-      "contracts_published_description": "Extractive industries: Some information on petroleum auction rounds is published, but contract terms are not. The 2009 Mining Law reduced transparency in the mining sector; only contracts that predate the law are available, and only by request.\nThe Finance Ministry publishes some information on oil companies' operations and disaggregated revenue streams. The Energy and Mineral Resources Ministry provides data on reserves, production volumes, and prices, but does not include information on extractive revenues. The annual report of BPMIGAS, the former regulator, contains information on reserves, production, and social initiatives, but only limited data on company payments. (NRGI)",
-      "inst_engaging": "Yes",
-      "cs_engaged": "Yes (Thanks to a memorandum of understanding signed with Indonesia’s national procurement authority (LKPP), Indonesia Corruption Watch is able to import public contracting data and create analytics on its OpenTender portal.This data can then be used by a variety of stakeholders, such as local organizations, citizens or state institutions.)",
-      "feedback_mechanism": null,
-      "ogp": true,
-      "ogp_commitment": "Accelerate Open and Good Governance Practices in Goods and Services Procurement; Accelerate Open and Good Governance Practices in Natural Resources Management",
-      "cost": false,
-      "eiti": "none",
-      "gift": false,
-      "gift_steward": null,
-      "g20": false,
-      "oecd": false,
-      "notable_projects": "- Procurement Authority (LKPP) is participating in WBG/Korea program to advance OC. scoping and baseline planned for Spring 2015.\n- Hivos and Webfoundation are collaborating on a scoping study on data use.\n- NRGI planing to work on EI contracts ; - TI Chapter",
-      "ocp_opportunities": "Hivos Long list",
-      "eiti_policy": "none",
-      "eiti_practice": "none",
-      "procurement_share": null,
-      "gdp": 888.5,
-      "population": 254.5
-    }
+{
+  "iso": "id",
+  "name": "Indonesia",
+  "meta": {
+    "schema_version": "1.0.0",
+    "date": 1455564913043
+  },
+  "results": {
+    "notable_laws": "Public Information Disclosure Act (2008); Transparency of Public Information Law (2010)",
+    "ocds": "committed",
+    "portal": "http://opentender.net/",
+    "contracts_published": "partial",
+    "contracts_published_description": "Extractive industries: Some information on petroleum auction rounds is published, but contract terms are not. The 2009 Mining Law reduced transparency in the mining sector; only contracts that predate the law are available, and only by request.\nThe Finance Ministry publishes some information on oil companies' operations and disaggregated revenue streams. The Energy and Mineral Resources Ministry provides data on reserves, production volumes, and prices, but does not include information on extractive revenues. The annual report of BPMIGAS, the former regulator, contains information on reserves, production, and social initiatives, but only limited data on company payments. (NRGI)",
+    "inst_engaging": "Yes",
+    "cs_engaged": "Yes (Thanks to a memorandum of understanding signed with Indonesia’s national procurement authority (LKPP), Indonesia Corruption Watch is able to import public contracting data and create analytics on its OpenTender portal.This data can then be used by a variety of stakeholders, such as local organizations, citizens or state institutions.)",
+    "feedback_mechanism": null,
+    "ogp": true,
+    "ogp_commitment": "Accelerate Open and Good Governance Practices in Goods and Services Procurement; Accelerate Open and Good Governance Practices in Natural Resources Management",
+    "cost": false,
+    "eiti": "none",
+    "gift": false,
+    "gift_steward": null,
+    "g20": false,
+    "oecd": false,
+    "notable_projects": "- Procurement Authority (LKPP) is participating in WBG/Korea program to advance OC. scoping and baseline planned for Spring 2015.\n- Hivos and Webfoundation are collaborating on a scoping study on data use.\n- NRGI planing to work on EI contracts ; - TI Chapter",
+    "ocp_opportunities": "Hivos Long list",
+    "eiti_policy": "none",
+    "eiti_practice": "none",
+    "procurement_share": null,
+    "gdp": 888.5,
+    "population": 254.5,
+    "websites": [
+      {
+        "website_name": "sdf",
+        "website_link": "sadf"
+      },
+      {
+        "website_name": "sdf",
+        "website_link": "asdf"
+      }
+    ],
+    "godi_score": 1,
+    "godi_link": "sdf",
+    "ocds_historic_data": true,
+    "ocds_ongoing_data": true,
+    "ocds_implementation": true,
+    "citizen_monitoring": true,
+    "commitment_oil_mining": "sdf",
+    "ogp_commitments": [
+      {
+        "ogp_commitment": "sdf",
+        "ogp_commitment_link": "sdf"
+      }
+    ],
+    "commitment_oil_mining_link": "sd",
+    "disclosure_oil_mining": "sdf",
+    "disclosure_oil_mining_link": "sdf"
   }
+}
