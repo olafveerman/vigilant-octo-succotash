@@ -9,7 +9,6 @@
     "godi_score": {
       "title": "GODI Score",
       "type": "number",
-      "default": "",
       "description": ""
     },
     "godi_link": {
@@ -55,21 +54,32 @@
       "default": false,
       "description": ""
     },
-    "website_name": {
-      "title": "Website name",
-      "type": "string",
-      "description": ""
-    },
-    "website_link": {
-      "title": "Website link",
-      "type": "string",
-      "description": ""
+    "websites": {
+      "type": "array",
+      "title": "Relevant websites",
+      "items": {
+        "title": "Website",
+        "type": "object",
+        "properties": {
+          "website_name": {
+            "title": "Website name",
+            "type": "string",
+            "description": ""
+          },
+          "website_link": {
+            "title": "Website link",
+            "type": "string",
+            "description": ""
+          }
+        },
+        "required": []
+      }
     },
     "ogp_commitments": {
       "type": "array",
       "title": "Relevant OGP commitments",
       "items": {
-        "title": "Innovation",
+        "title": "Commitment",
         "type": "object",
         "properties": {
           "ogp_commitment": {
@@ -89,24 +99,24 @@
       "type": "boolean",
       "default": false
     },
-    "extractives_commitment": {
-      "title": "Extractives Commitment",
+    "commitment_oil_mining": {
+      "title": "Relevant commitment: Oil and Mining",
       "type": "string",
       "description": ""
     },
-    "extractives_commitment_link": {
-      "title": "Link to extractives commitment",
+    "commitment_oil_mining_link": {
+      "title": "Link to oil and mining commitment",
       "type": "string",
       "description": ""
     },
-    "publishing_extractives": {
-      "title": "Publishing Extractives",
+    "disclosure_oil_mining": {
+      "title": "Notable disclosure: Oil and Mining sector",
       "type": "string",
       "default": "",
       "description": ""
     },
-    "publishing_extractives_link": {
-      "title": "Link to Publishing Extractives",
+    "disclosure_oil_mining_link": {
+      "title": "Link to oil and mining disclosure",
       "type": "string",
       "default": "",
       "description": ""
